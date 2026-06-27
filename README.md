@@ -4,8 +4,9 @@ When the REM suspended service between Brossard and Gare Centrale from July 5 to
 
 The question: during that downtime, where did the people that relied on the REM go? What did they do instead?
 
-This notebook uses open GTFS data from the RTL and Bixi trip data to assess the shuttle system on the dimensions that matter to riders and agencies alike — coverage, frequency, and travel time — and then looks for a behavioural signal in Bixi ridership near REM stations during the closure.
+This notebook uses open GTFS data from the RTL to assess the shuttle system on based on coverage, frequency, and travel time.
 
+Bixi trip data starting near the Gare Centrale is also consulted as a "downstream" behavioural signal.
 ---
 
 ## Research Questions
@@ -13,10 +14,10 @@ This notebook uses open GTFS data from the RTL and Bixi trip data to assess the 
 ### Primary Question
 *operational scope*
 - Did the RTL shuttle system provide a meaningful replacement for REM service during the summer 2025 closure?
-  -  as measured by:
-     -   scheduled frequency,
-     -   travel time,
-     -   and stop coverage.
+- As measured by:
+  - stop coverage
+  - scheduled frequency, and
+  - travel time.
 - Where specifically did the REM riders go?
   - Did they take transit (i.e. use the replacement network),
   - or did they switch to driving/carpooling/Bixi?
@@ -27,7 +28,7 @@ This notebook uses open GTFS data from the RTL and Bixi trip data to assess the 
 
 ### Tertiary Question:
 *behavioural scope*
-- Is there a detectable change in Bixi ridership near island-side REM stations during the closure window, consistent with riders seeking alternatives?
+- Is there a detectable change in Bixi ridership near the Gare Centrale REM station during the closure window? We 
 
 
 
@@ -35,13 +36,13 @@ This notebook uses open GTFS data from the RTL and Bixi trip data to assess the 
 
 ## Data Sources
 
-| Dataset | Source | Purpose | Scope |
-|---|---|---|---|
-| RTL GTFS 20250623 | RTL open data | BASELINE: normal scheduled service before closure | operational, strategic |
-| RTL GTFS 20250707 | RTL open data | DURING CLOSURE: shuttle routes and frequency changes | operational, strategic |
-| RTL GTFS 20250825 | RTL open data | POST-CLOSURE: normal service restored | operational |
-| Bixi trip data 2025 | Bixi open data | Behavioural proxy during closure window | behavioural |
-| Bixi trip data 2024 | Bixi open data | Year-over-year control | behavioural |
+| Dataset | Source | Purpose |
+|---|---|---|
+| RTL GTFS 20250623 | RTL open data | BASELINE: normal scheduled service before closure |
+| RTL GTFS 20250707 | RTL open data | DURING CLOSURE: shuttle routes and frequency changes |
+| RTL GTFS 20250825 | RTL open data | POST-CLOSURE: normal service restored |
+| Bixi trip data 2025 | Bixi open data | Behavioural proxy during closure window |
+| Bixi trip data 2024 | Bixi open data | Year-over-year control |
 
 ---
 
