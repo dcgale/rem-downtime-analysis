@@ -7,6 +7,7 @@ The question: during that downtime, where did the people that relied on the REM 
 This notebook uses open GTFS data from the RTL to assess the shuttle system on based on coverage, frequency, and travel time.
 
 Bixi trip data starting near the Gare Centrale is also consulted as a "downstream" behavioural signal.
+
 ---
 
 ## Research Questions
@@ -28,7 +29,7 @@ Bixi trip data starting near the Gare Centrale is also consulted as a "downstrea
 
 ### Tertiary Question:
 *behavioural scope*
-- Is there a detectable change in Bixi ridership near the Gare Centrale REM station during the closure window? We 
+- Is there a detectable change in Bixi ridership near the Gare Centrale REM station during the closure window? We
 
 
 
