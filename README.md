@@ -91,3 +91,13 @@ Requires [uv](https://docs.astral.sh/uv/).
 uv sync
 uv run jupyter notebook
 ```
+## AI Usage Disclosure
+
+Anthropic's Claude Sonnet 4.6 was used for:
+- general planning
+- clarifying wording
+- code questions and suggestions
+- generating boilerplate code (cell output formatting, etc.).
+
+All code was either written by the author or carefully reviewed and validated by the author prior to use.
+The author is solely responsible for all data sourcing, statistical reasoning, methodological decisions, and interpretation.
