@@ -10,22 +10,21 @@ This notebook uses open GTFS data from the RTL to assess the shuttle system on b
 
 ## Research Questions
 
-### Primary Question
-*operational scope*
+### Primary Question: *operational scope*
+
 - Did the RTL shuttle system provide a meaningful replacement for REM service during the summer 2025 closure?
   -  as measured by:
      -   scheduled frequency
      -   travel time
      -   stop coverage.
 - Where specifically did the REM riders go?
-  - Did they take the
--
+  - Did they take the shuttle services?
+  - Did they try to bypass the closure with buses to the Yellow Line?
 - or did they switch to driving/carpooling?
 
-### Secondary Question
-*strategic scope*
-- Did the RTL anticipate demand for the replacement network? Specifically, did they increase frequency on the Longueuil metro bus routes during the closure window relative to baseline (a scheduling decision visible in the GTFS feeds, and a meaningful proxy for expected demand)?
+### Secondary Question: *strategic scope*
 
+- Did the RTL anticipate demand for the replacement network? Specifically, did they increase frequency on the bus routes during the closure window relative to baseline (a scheduling decision visible in the GTFS feeds, and a meaningful proxy for expected demand)?
 
 ---
 
@@ -41,8 +40,8 @@ This notebook uses open GTFS data from the RTL to assess the shuttle system on b
 
 ## Notebook Structure
 
-### 1. Setup
-Load GTFS feeds and Bixi trip data. Define the closure window (July 5 - August 17, 2025) and the comparison period (same dates in 2024).
+### 1. Data Setup
+Load GTFS feeds. Define the closure window (July 5 - August 17, 2025) and the comparison period (same dates in 2024).
 
 ### 2. The REM Baseline
 
