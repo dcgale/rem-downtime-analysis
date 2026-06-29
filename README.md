@@ -6,7 +6,6 @@ Given the transit disruption, where did the people that relied on the REM go, an
 
 This notebook uses open GTFS data from the RTL to assess the shuttle system on based on coverage, frequency, and travel time.
 
-
 ---
 
 ## Research Questions
